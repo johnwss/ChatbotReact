@@ -5,7 +5,7 @@ import "./LearningOptions.css";
 const LearningOptions = (props) => {
     const options = [
       {
-        text: "Rastreio por e-mail",
+        text: "rastreio por e-mail",
         handler: props.actionProvider.handleJavascriptList,
         id: 1,
       },
